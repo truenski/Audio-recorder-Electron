@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';">
+    <link rel="stylesheet" href="../style.css">
+    <title>Recorder</title>
+</head>
+
+<body class="preload">
+    <div class="container">
+        <div class="display-container">
+            <h1 id="display">00:00.00.0</h1>
+        </div>
+        <div class="record-container">
+            <button id="record"><img id="mic-icon" src="../../assets/icons/mic.svg" alt="mic-icon"></button>
+        </div>
+        <div class="group">
+            <label for="mic">Input:</label>
+            <select name="mic" id="mic"></select>
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
