@@ -1,3 +1,3 @@
 # Audio-recorder-Electron
 
-<img src="./assets/record.png"/>
+<img src="./assets/icons/record.png"/>
